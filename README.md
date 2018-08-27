@@ -7,6 +7,8 @@
 
 #####1，先上效果图：
 
+(http://github.com/zqHero/reactNavigationDemo/screenShot/asd.png)
+
 ![这里写图片描述](https://img-blog.csdn.net/20180827201852383?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTMyMzMwOTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70) 
 
 </p>
