@@ -7,7 +7,7 @@
 
 #####1，先上效果图：
 
-https://github.com/zqHero/reactNavigationDemo/blob/master/screenShot/asd.gif
+https://raw.githubusercontent.com/zqHero/reactNavigationDemo/master/screenShot/asd.gif
 
 </p>
 介绍：
