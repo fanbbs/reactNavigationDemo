@@ -7,7 +7,10 @@
 
 #####1，先上效果图：
 
-<div align='center'> ![截图](https://raw.githubusercontent.com/zqHero/reactNavigationDemo/master/screenShot/asd.gif) </div>
+<div align='center'>
+	
+![截图](https://raw.githubusercontent.com/zqHero/reactNavigationDemo/master/screenShot/asd.gif) 
+</div>
 
 </p>
 介绍：
