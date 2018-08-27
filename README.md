@@ -1,23 +1,20 @@
 
 
-#####<font color='#00f'>Ç°ÑÔ£ºReact-Native ÊÇÎÒÃÇÒÆ¶¯¿ª·¢ÖĞ¾­³£»á½Ó´¥µ½µÄ¿ª·¢ÓïÑÔ¡£Òò´ËÔÚ·¢Õ¹»¹±È½ÏÄêÇáµÄReactNativeÓïÑÔ¿ª·¢ÖĞ£¬ÎÒÃÇ±ÜÃâ²»ÁË½Ó´¥Ò»Ğ©µÚÈı·½¿â¡£½ñÌì¾Í½éÉÜÏÂ²©Ö÷ÔÚ Ñ§Ï°ReactNativeÖĞÅöµ½µÄÒ»¸öÊ¹ÓÃÂÊ±È½Ï¸ßµÄ¿â £ºreact-navigation ¿â¡£
+#####<font color='#00f'>å‰è¨€ï¼šReact-Native æ˜¯æˆ‘ä»¬ç§»åŠ¨å¼€å‘ä¸­ç»å¸¸ä¼šæ¥è§¦åˆ°çš„å¼€å‘è¯­è¨€ã€‚å› æ­¤åœ¨å‘å±•è¿˜æ¯”è¾ƒå¹´è½»çš„ReactNativeè¯­è¨€å¼€å‘ä¸­ï¼Œæˆ‘ä»¬é¿å…ä¸äº†æ¥è§¦ä¸€äº›ç¬¬ä¸‰æ–¹åº“ã€‚ä»Šå¤©å°±ä»‹ç»ä¸‹åšä¸»åœ¨ å­¦ä¹ ReactNativeä¸­ç¢°åˆ°çš„ä¸€ä¸ªä½¿ç”¨ç‡æ¯”è¾ƒé«˜çš„åº“ ï¼šreact-navigation åº“ã€‚
 </font>
 
-±¾ÆªÎÄÕÂÖ÷Òª¼ÇÂ¼ÏÂ react-navigationµÄ´«Öµ£¬ÒÔ¼°f·½·¨»Øµ÷¡£ÒÔ¼°ÓÃµÄ±È½Ï¶àµÄ TabNavigator£¬ºÍStackNavigator µÄ½éÉÜ¡£
+æœ¬ç¯‡æ–‡ç« ä¸»è¦è®°å½•ä¸‹ react-navigationçš„ä¼ å€¼ï¼Œä»¥åŠfæ–¹æ³•å›è°ƒã€‚ä»¥åŠç”¨çš„æ¯”è¾ƒå¤šçš„ TabNavigatorï¼Œå’ŒStackNavigator çš„ä»‹ç»ã€‚
 
-#####1£¬ÏÈÉÏĞ§¹ûÍ¼£º
+#####1ï¼Œå…ˆä¸Šæ•ˆæœå›¾ï¼š
 
-<div align='center'>
-![ÕâÀïĞ´Í¼Æ¬ÃèÊö](https://img-blog.csdn.net/20180827201852383?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTMyMzMwOTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70) 
-
-</div >
+![è¿™é‡Œå†™å›¾ç‰‡æè¿°](https://img-blog.csdn.net/20180827201852383?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTMyMzMwOTc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70) 
 
 </p>
-½éÉÜ£º
+ä»‹ç»ï¼š
 
-#####1£¬Ç¶Ì×ÎÊÌâ£º
+#####1ï¼ŒåµŒå¥—é—®é¢˜ï¼š
 
-	½çÃæÖ÷ÒªÊ¹ÓÃ TabNavigator ºÍ StackNavigator Ö®¼äµÄÇ¶Ì×Íê³É: Ö÷½çÃæÊÇÒ»¸ö StackNavigator ±äÁ¿¡£ÆäÖĞÇ¶Ì×ÁË TabNavigator Tabµ¼º½¡£ ´úÂëÈçÏÂ RouteView.js£º
+	ç•Œé¢ä¸»è¦ä½¿ç”¨ TabNavigator å’Œ StackNavigator ä¹‹é—´çš„åµŒå¥—å®Œæˆ: ä¸»ç•Œé¢æ˜¯ä¸€ä¸ª StackNavigator å˜é‡ã€‚å…¶ä¸­åµŒå¥—äº† TabNavigator Tabå¯¼èˆªã€‚ ä»£ç å¦‚ä¸‹ RouteView.jsï¼š
 ```
 
 
@@ -37,9 +34,9 @@ import DetailScreen from './detail/DetailScreen'
 import { YellowBox } from 'react-native';
 
 /**
- * Ö÷½çÃæ  
+ * ä¸»ç•Œé¢  
  * 
- * Ö´ĞĞ´úÂëÇ°  ĞèÒª°²×°   "react-navigation": "^1.0.0-beta.19" ¿â: 
+ * æ‰§è¡Œä»£ç å‰  éœ€è¦å®‰è£…   "react-navigation": "^1.0.0-beta.19" åº“: 
  * npm install react-navigation
  */
 export default class RouteView extends Component{
@@ -56,7 +53,7 @@ export default class RouteView extends Component{
 }
 
 /**
- * Ö÷½çÃæ tab:
+ * ä¸»ç•Œé¢ tab:
  */
 const Home = TabNavigator({
     HomeMain: {
@@ -85,31 +82,31 @@ const Home = TabNavigator({
 const App = StackNavigator({
         Home:{
             screen:Home,
-            // navigationOptions: { headerTitle:'niho'}  // ´Ë´¦ÉèÖÃÁË, »á¸²¸Ç×é¼şÄÚµÄ`static navigationOptions`ÉèÖÃ. 
+            // navigationOptions: { headerTitle:'niho'}  // æ­¤å¤„è®¾ç½®äº†, ä¼šè¦†ç›–ç»„ä»¶å†…çš„`static navigationOptions`è®¾ç½®. 
         },
-        DetailScreen: { screen: DetailScreen }, //ÏêÇé½çÃæ
+        DetailScreen: { screen: DetailScreen }, //è¯¦æƒ…ç•Œé¢
     }
 );
 ```
 
-#####2,Ìø×ªºÍ´«ÖµÎÊÌâ£º
+#####2,è·³è½¬å’Œä¼ å€¼é—®é¢˜ï¼š
 
-Ö÷½çÃæHomeMain.js µ¼º½ÖĞÓĞÒ»¸öÌø×ª°´Å¥£¬µã»÷Ìø×ªµ½ÏÂÒ»Ò³¡£
+ä¸»ç•Œé¢HomeMain.js å¯¼èˆªä¸­æœ‰ä¸€ä¸ªè·³è½¬æŒ‰é’®ï¼Œç‚¹å‡»è·³è½¬åˆ°ä¸‹ä¸€é¡µã€‚
 
-Ìø×ª·½·¨ ÒÔ¼°´«²ÎÊı£º
+è·³è½¬æ–¹æ³• ä»¥åŠä¼ å‚æ•°ï¼š
 ```
  onRightPress(){
         this.props.navigation.navigate('DetailScreen',
         
-            //´«µİ¸øÏÂ¸ö½çÃæµÄ²ÎÊı    
+            //ä¼ é€’ç»™ä¸‹ä¸ªç•Œé¢çš„å‚æ•°    
             {
-                user:'ÎÒÊÇÖ÷½çÃæ´«µİµÄ²ÎÊı',
+                user:'æˆ‘æ˜¯ä¸»ç•Œé¢ä¼ é€’çš„å‚æ•°',
 
-                //»Øµ÷º¯Êı£º
+                //å›è°ƒå‡½æ•°ï¼š
                 callBack:(random)=>{
-                    alert('Ö÷½çÃæÊı¾İÒÑ¾­¸Ä±ä')
+                    alert('ä¸»ç•Œé¢æ•°æ®å·²ç»æ”¹å˜')
                     this.setState({
-                        mainInfo: 'Êı¾İÒÑ¾­¸Ä±ä' +':'+ random
+                        mainInfo: 'æ•°æ®å·²ç»æ”¹å˜' +':'+ random
                     })
                 }
             }
@@ -117,7 +114,7 @@ const App = StackNavigator({
     }
 ```
 
-ÏêÇé½çÃæ½ÓÊÕ·½·¨ ÒÔ¼°»Øµ÷Ö÷½çÃæ·½·¨£º
+è¯¦æƒ…ç•Œé¢æ¥æ”¶æ–¹æ³• ä»¥åŠå›è°ƒä¸»ç•Œé¢æ–¹æ³•ï¼š
 
 ```
 
@@ -125,47 +122,47 @@ const App = StackNavigator({
         return(
             <View style={{flex:1,backgroundColor:'#ddf',justifyContent:'center',flexDirection:'column'}}>
                 <Text style={{alignSelf:'center',fontSize:20,color:'#00f',marginBottom:50}}
-                  //½ÓÊÕ´«¹ıÀ´µÄ²ÎÊıÖµ
+                  //æ¥æ”¶ä¼ è¿‡æ¥çš„å‚æ•°å€¼
                   >
                   {this.props.navigation.state.params.user}    
                 </Text>
 
                 <Button 
                     style={{alignSelf:'center',fontSize:20,color:'#fff'}} 
-                    title = {'µã»÷»Øµ÷¸Ä±äÖ÷½çÃæÊı¾İ'}
-                    onPress = {this.props.navigation.state.params.callBack.bind(this,Math.random()*100)}  //»Øµ÷Ö÷½çÃæ callback ·½·¨  ¸Ä±äÖ÷½çÃæÊı¾İ 
+                    title = {'ç‚¹å‡»å›è°ƒæ”¹å˜ä¸»ç•Œé¢æ•°æ®'}
+                    onPress = {this.props.navigation.state.params.callBack.bind(this,Math.random()*100)}  //å›è°ƒä¸»ç•Œé¢ callback æ–¹æ³•  æ”¹å˜ä¸»ç•Œé¢æ•°æ® 
                 />
             </View>
         )
     }
 ```
 
-#####3,navigationOptions ÖĞµã»÷ÊÂ¼şµÄ´¦Àí£º
+#####3,navigationOptions ä¸­ç‚¹å‡»äº‹ä»¶çš„å¤„ç†ï¼š
 
-navigationÖĞ ÓÒ²àµã»÷ÊÂ¼ş´¦Àí
+navigationä¸­ å³ä¾§ç‚¹å‡»äº‹ä»¶å¤„ç†
 
 ```
-//µã»÷ÊÂ¼şµÄ´¦Àí£º  1£¬ÉèÖÃ²ÎÊı  bindµ½µ±Ç°¶ÔÏó
+//ç‚¹å‡»äº‹ä»¶çš„å¤„ç†ï¼š  1ï¼Œè®¾ç½®å‚æ•°  bindåˆ°å½“å‰å¯¹è±¡
     componentDidMount(){
-        //ÔÚ³õÊ¼»¯renderÖ®ºóÖ»Ö´ĞĞÒ»´Î£¬ÔÚÕâ¸ö·½·¨ÄÚ£¬¿ÉÒÔ·ÃÎÊÈÎºÎ×é¼ş£¬
-        //componentDidMount()·½·¨ÖĞµÄ×Ó×é¼şÔÚ¸¸×é¼şÖ®Ç°Ö´ĞĞ
+        //åœ¨åˆå§‹åŒ–renderä¹‹ååªæ‰§è¡Œä¸€æ¬¡ï¼Œåœ¨è¿™ä¸ªæ–¹æ³•å†…ï¼Œå¯ä»¥è®¿é—®ä»»ä½•ç»„ä»¶ï¼Œ
+        //componentDidMount()æ–¹æ³•ä¸­çš„å­ç»„ä»¶åœ¨çˆ¶ç»„ä»¶ä¹‹å‰æ‰§è¡Œ
         this.props.navigation.setParams({onRightPress:this.onRightPress.bind(this)})
     }
 
-    static navigationOptions =({navigation, screenProps}) =>( {  // ÆÁÄ»µ¼º½µÄÄ¬ÈÏÑ¡Ïî, Ò²¿ÉÒÔÔÚ×é¼şÄÚÓÃ static navigationOptions ÉèÖÃ(»á¸²¸Ç´Ë´¦µÄÉèÖÃ)
-        // header: () => (<TopHeader/>), // ¿ÉÒÔÖ¸¶¨×Ô¶¨ÒåµÄÍ·²¿µ¼º½×é¼ş£º
+    static navigationOptions =({navigation, screenProps}) =>( {  // å±å¹•å¯¼èˆªçš„é»˜è®¤é€‰é¡¹, ä¹Ÿå¯ä»¥åœ¨ç»„ä»¶å†…ç”¨ static navigationOptions è®¾ç½®(ä¼šè¦†ç›–æ­¤å¤„çš„è®¾ç½®)
+        // header: () => (<TopHeader/>), // å¯ä»¥æŒ‡å®šè‡ªå®šä¹‰çš„å¤´éƒ¨å¯¼èˆªç»„ä»¶ï¼š
 
-        headerTitle:'Ö÷Ò³',
+        headerTitle:'ä¸»é¡µ',
         headerRight:(
         <View style={{paddingRight:10}}>
                 <Button
                     style={{backgroundColor:'#3dd'}}
-                    title={'ÏÂÒ»Ò³'}
-                    //µã»÷ÊÂ¼şµÄ´¦Àí£º  2£¬»ñÈ¡·½·¨¶ÔÏó   ´¦ÀíÊÂ¼ş
+                    title={'ä¸‹ä¸€é¡µ'}
+                    //ç‚¹å‡»äº‹ä»¶çš„å¤„ç†ï¼š  2ï¼Œè·å–æ–¹æ³•å¯¹è±¡   å¤„ç†äº‹ä»¶
                     onPress={()=>navigation.state.params.onRightPress()}
                 />
         </View>),
-        tabBarLabel: 'Ö÷Ò³',
+        tabBarLabel: 'ä¸»é¡µ',
         tabBarIcon: ({ tintColor, focused }) => (
             <Image resizeMode='contain' style={{width:25,height:25}}
                 source={require('../imgs/tabbar_homepage.png')}
@@ -174,20 +171,20 @@ navigationÖĞ ÓÒ²àµã»÷ÊÂ¼ş´¦Àí
     })
 
     /**
-     * µã»÷ÊÂ¼şµÄ´¦Àí£º 3£¬ ´¦ÀíÊÂ¼ş
+     * ç‚¹å‡»äº‹ä»¶çš„å¤„ç†ï¼š 3ï¼Œ å¤„ç†äº‹ä»¶
      */
     onRightPress(){
         this.props.navigation.navigate('DetailScreen',
         
-            //´«µİ¸øÏÂ¸ö½çÃæµÄ²ÎÊı    
+            //ä¼ é€’ç»™ä¸‹ä¸ªç•Œé¢çš„å‚æ•°    
             {
-                user:'ÎÒÊÇÖ÷½çÃæ´«µİµÄ²ÎÊı',
+                user:'æˆ‘æ˜¯ä¸»ç•Œé¢ä¼ é€’çš„å‚æ•°',
 
-                //»Øµ÷º¯Êı£º
+                //å›è°ƒå‡½æ•°ï¼š
                 callBack:(random)=>{
-                    alert('Ö÷½çÃæÊı¾İÒÑ¾­¸Ä±ä')
+                    alert('ä¸»ç•Œé¢æ•°æ®å·²ç»æ”¹å˜')
                     this.setState({
-                        mainInfo: 'Êı¾İÒÑ¾­¸Ä±ä' +':'+ random
+                        mainInfo: 'æ•°æ®å·²ç»æ”¹å˜' +':'+ random
                     })
                 }
             }
@@ -197,5 +194,5 @@ navigationÖĞ ÓÒ²àµã»÷ÊÂ¼ş´¦Àí
 
 
 
-´úÂëµØÖ·£º»¶Ó­forkºÍstar£º
+ä»£ç åœ°å€ï¼šæ¬¢è¿forkå’Œstarï¼š
 	https://github.com/zqHero/reactNavigationDemo
